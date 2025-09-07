@@ -1,0 +1,48 @@
+.top,
+.bottom {
+	text-align: center;
+	width: 100%;
+	max-width: 728px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.top.fixedsticky-on,
+.bottom.fixedsticky-on {
+	width: 96%;
+}
+
+/* Fixed-Sticky CSS */
+.top {
+	top: 0; 
+}
+.bottom {
+	bottom: 0;
+}
+#top-a {
+	top: 32px;
+}
+#bottom-b {
+	bottom: 16px;
+}
+
+/* Demo Colors */
+#top-a,
+#bottom-a {
+	background-color: #f00;
+	background-color: rgba(255,0,0,.6);
+}
+#top-b,
+#bottom-b {
+	background-color: #0f0;
+	background-color: rgba(0,255,0,.6);
+}
+.container {
+	background-color: #999;
+}
+
+@media ( max-width: 25em ) {
+	#top-a {
+		height: 200px;
+	}
+}

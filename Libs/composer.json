@@ -1,0 +1,8 @@
+{
+    "require": {
+        "rmccue/requests": "^2.0",
+        "jeremykendall/php-domain-parser": "^6.1",
+        "mobiledetect/mobiledetectlib": "^3.74",
+        "guzzlehttp/guzzle": "^7.8"
+    }
+}
